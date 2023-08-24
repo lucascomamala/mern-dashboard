@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const ProductStatSchema = new mongoose.Schema(
   {
@@ -11,17 +11,18 @@ const ProductStatSchema = new mongoose.Schema(
         month: String,
         totalSales: Number,
         totalUnits: Number,
-      }
+      },
     ],
-    dailyData: {
-      date: String,
-      totalSales: Number,
-      totalUnits: Number,
-    },
+    dailyData: [
+      {
+        date: String,
+        totalSales: Number,
+        totalUnits: Number,
+      },
+    ],
   },
   { timestamps: true }
-)
+);
 
-const ProductStat = mongoose.model('Product', ProductStatSchema)
-
-export default ProductStat
+const ProductStat = mongoose.model("ProductStat", ProductStatSchema);
+export default ProductStat;
