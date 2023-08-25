@@ -6,7 +6,6 @@ import {
   Search,
   SettingsOutlined,
   ArrowDropDownOutlined,
-  AnchorOutlined,
 } from "@mui/icons-material";
 
 import { useDispatch } from "react-redux";
