@@ -11,7 +11,7 @@ Mock administrator dashboard for an e-commerce company/website. Full-stack appli
 
 ## 🛠️ Installation
 
-Use the package manager [npm](https://www.npmjs.com/) to install ReactTube.
+Use the package manager [npm](https://www.npmjs.com/) to install.
 - Run ```npm install``` on both directories (server and client)
 
 
